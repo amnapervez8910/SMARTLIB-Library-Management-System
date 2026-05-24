@@ -1,0 +1,89 @@
+:root {
+  --green-950: #03110d;
+  --green-900: #061d17;
+  --green-800: #083326;
+  --green-700: #064e3b;
+  --green-600: #1f5134;
+  --green-500: #2f6b4a;
+  --green-400: #3a5a40;
+  --green-300: #7fbf9f;
+  --green-200: #bfe3d1;
+  --green-100: #e7f5ef;
+  --accent: #10b981;
+  --danger: #c0392b;
+  --warning: #b5a820;
+  --text: #333333;
+  --muted: #555555;
+  --bg: #f9fafb;
+  --white: #ffffff;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --soft-shadow: 0 6px 18px rgba(0, 0, 0, 0.14);
+  --radius: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: var(--green-600);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--green-700);
+  transform: translateY(-2px);
+  box-shadow: var(--soft-shadow);
+}
+
+.soft-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.badge.success {
+  background: var(--accent);
+}
+
+.badge.danger {
+  background: var(--danger);
+}
+
+.badge.warn {
+  background: var(--warning);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
