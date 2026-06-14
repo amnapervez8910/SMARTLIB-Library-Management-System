@@ -12,7 +12,7 @@ html {
 
 .container {
     height: 100%;
-    width: 100%;
+    width: 10%;
     background-image: url('assets/styles/library.jpg');
     background-size: cover;
     background-position: center;
