@@ -1,4 +1,4 @@
-# 📚 SmartLib  Library Management System
+# 📚 SmartLib - Library Management System
 
 SmartLib is a web-based Library Management System designed to automate and streamline library operations. The system provides dedicated modules for Students, Faculty Members, and Librarians, enabling efficient book management, borrowing, request handling, and reporting through a secure role-based platform.
 
