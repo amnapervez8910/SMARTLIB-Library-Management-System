@@ -121,7 +121,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       font-weight: bold;
       cursor: pointer;
       border-radius: 6px;
-      margin-top: 10px;
+      margin-top: 9px;
     }
   </style>
 </head>
